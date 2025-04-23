@@ -9,7 +9,11 @@ public class ExpressionParser {
         while (true) {
             System.out.print("expr> ");
             String input = scanner.nextLine();
-            if (input.equalsIgnoreCase("exit")) break;
+            if (input.equalsIgnoreCase("exit")){ break;}
+            if (input.equalsIgnoreCase("d")){
+
+            }
+
 
             try {
                 Tokenizer tokenizer = new Tokenizer(input); // Tokenize the input
